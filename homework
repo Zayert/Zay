@@ -1,9 +1,30 @@
 <html>
       <head>
-          <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8">
             <title>欢迎新同学！</title>
       </head>
-      <body>
-            <form>
-                  <label>
-                        <tr>姓名</tr>
+      <body bgcolor="#68EE68">
+            <h1 style="text-align:center;">欢迎加入清泽心雨！</h1>
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570807666678&di=b1b2266d6fe3db1dfd317c7f087eb43c&imgtype=0&src=http%3A%2F%2Fpic39.nipic.com%2F20140322%2F13655355_091025981000_2.jpg" title="迎新" width="100%">
+            <style>
+            span{color:blue;
+            }
+            </style>
+            <form method="post" action="save.php">
+                <span>姓名：</span>
+                <br>
+                <input type="text" name="姓名" />
+                <br>
+                <span>专业名称：</span>
+                <br>
+                <input type="text" name="专业名称" />
+                <br>
+                <span>电话号码：</span>
+                <br>
+                <input type="text" name="电话号码" />
+                <br>
+                <span>邮箱地址：</span>
+                <br>
+                <input type="text" name="邮箱地址" />
+                <br>
+                <input type="submit" value="确定" />
