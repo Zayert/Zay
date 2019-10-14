@@ -10,6 +10,7 @@
             span{color:blue;
             }
             </style>
+            <div>
             <form method="post" action="save.php">
                 <span>姓名：</span>
                 <br>
@@ -27,4 +28,15 @@
                 <br>
                 <input type="text" name="邮箱地址" />
                 <br>
-                <input type="submit" value="确定" />
+                <input type="submit" value="确定" /
+              </div>
+              <div>
+              <label>意向部门：</label>
+                  <select>
+                   <option value="goood">网站运营中心</option>
+                   <option value="emmm">新媒体微中心</option>
+                   <option value="emmmmm">视频中心</option>
+                   <option value="emmmmmmm">新闻中心</option>
+                  </select>
+                  
+              
