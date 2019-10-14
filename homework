@@ -27,6 +27,7 @@
                 <span>邮箱地址：</span>
                 <br>
                 <input type="text" name="邮箱地址" />
+              </form>
               </div>
               <div>
               <label>意向部门：</label>
