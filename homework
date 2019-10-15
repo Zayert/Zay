@@ -9,6 +9,8 @@
             <style>
             span{color:blue;
             }
+            .stress{color:red;}
+            .em{color:purple;}
             </style>
             <div align="left" style="float:left">
             <form method="post" action="save.php">
@@ -28,19 +30,17 @@
                 <br>
                 <input type="text" name="邮箱地址" />
               </form>
-              </div>
-               <div align="right" style="float:right">
-               <label>性别:</label>
+               <label><span>性别:</span></label>
                <br>
                <input type="radio" value="wow" name="gender" />
-               <label>男</label>
+               <label class="stress">男</label>
                <br>
                <input type="radio" value="cool" name="gender" />
-               <label>女</label>
+               <label class="stress">女</label>
                </div>
                <br>
               <div align="center">
-              <label>意向部门：</label>
+              <label><span>意向部门：</span></label>
                   <select>
                    <option value="goood">网站运营中心</option>
                    <option value="emmm">新媒体微中心</option>
@@ -49,7 +49,7 @@
                   </select>
                </div>
                <div align="center">
-               <label>如果你选择了网站运营中心，那么请再选择以下内容：</label>
+               <label><span>如果你选择了网站运营中心，那么请再选择以下内容：</span></label>
                <select>
                     <option value="lalala">综合办公室</option>
                     <option value="lalalala">营销策划部</option>
@@ -60,7 +60,7 @@
                </div>
                <div align="center">
                 <br>
-                <input type="submit" value="确定" />
+                <input type="submit" value="确定" class="em"/>
                </div>
        </body>
 </html>        
